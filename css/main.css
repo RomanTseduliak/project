@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic|Raleway&display=swap');
+
+:root {
+    --accent-color: #0c61eb;
+    --font-color: black;
+    font-family: 'Livvic', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+@media (min-width: 600px) {
+
+}
+body {
+    max-width: 1300px;
+    min-width: 360px;
+    margin: auto;
+    background-color: #67432A;
+}
+.name {
+  font-family:  cursive;
+  color: white;
+  margin: 2px 20px 2px 1px;
+  font-size: 10px; 
+  text-shadow: 0 1px 1px white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header{
+  height: 95px;
+  width: 80%;
+  position: fixed;
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-around;
+  }
+.logo{
+  width: 32%;
+  height: 65px;
+}
+.menu{
+  width: 90%;
+  height: 80px;
+   
+}
+.d-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin:0  auto;
+}
+.logo-link{
+  font-family: cursive;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 2px 2px black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu-link{
+  font-family: cursive;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 2px 2px black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding:12px 12px 0 12px;
+  
+}
+.menu-link:hover {
+  color : goldenrod;
+}
+/*.container{
+  width: 100%;
+  height: 100%;
+  margin: left; 
+}*/
+/*.section{
+  height: 100vh;
+  padding-top: 60px;
+}*/
+.arabica {
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width : 1100px;
+}
+ /* .creamy {
+  background-position: left;
+  background-size: cover;
+  height: 800px;
+  width : 550px;
+}
+.creamy : hover {
+
+}
+.creamy2 {
+  background-position: right;
+  background-size: cover;
+  height: 800px;
+  width : 550px;
+}*/
+.banner{
+  background-image: url(../images/background1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  width : 1100px;
+  display: flex;
+  align-items:stretch;
+  justify-content: center;
+}
+.banner a{
+  font-family:  cursive;
+  color: white;
+  width : 390px;
+  height: 110px;
+  padding:9px;
+  padding:70px 2px 10px 20px;
+  font-size: 24px; 
+  text-shadow: 0 2px 2px white;
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+.banner p:hover{
+  color: goldenrod;
+}
+.banner p{
+font-family:  cursive;
+text-transform: full-size-kana;
+color: white;
+border: 2px solid transparent;
+padding:280px 40px 180px 40px;
+font-size: 22px;
+width : 700px;
+}
+h2 {
+  border-radius: 1px solid rgb(241, 216, 216);
+  text-shadow: 0 1px 1px white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*#welcome{
+  text-shadow: 0 2px 2px white; 
+ padding: 320px 10px 10px 10px;
+  width: 343px;*/
+
+#Сорти кави{
+ text-shadow: 0 2px 2px white; 
+ padding: 320px 10px 10px 10px;
+  width: 343px;
+}
+/*#Способи приготування{
+  
+}*/
+#Кавові напої{
+    height: 200px;
+    padding: 20px 10px 10px 10px;
+    aligth-items : center;
+
+}
+#Ароматні рецепти{
+  height: 200px;
+  padding: 20px 10px 10px 10px;
+}
+.creamy{
+  background-image: url(../images/creami.jpg);
+  background-position: center;
+  background-size: cover ;
+  height: 850px;
+  width : 1120px;
+  display: flex;
+  align-items:center;
+ justify-content: center;
+}
+#myButton {
+	-moz-box-shadow: 2px 0px 20px 0px #9fb4f2;
+	-webkit-box-shadow: 2px 0px 20px 0px #9fb4f2;
+	box-shadow: 2px 0px 20px 0px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:5px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:22px;
+	font-style:italic;
+	padding:19px 57px;
+	text-decoration:none;
+	text-shadow:1px 1px 13px #283966;
+}
+#myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+	background-color:#476e9e;
+}
+#myButton:active {
+	position:relative;
+	top:1px;
+}
+.iframe {
+  width="440"
+ height="270"
+ frameborder="0"
+ allowfullscreen;
+}
+.adaptive-wrap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 10;
+overflow: hidden;
+}
+.adaptive-wrap iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 40%;
+height: 30%;
+}
+.map {
+  width="600"
+  height="450"
+  frameborder="0"
+  style="border:0;"
+  allowfullscreen;
+}
+
+#Ароматні_рецепти {
+  display: block;
+  margin: 30px auto 20px auto;
+  border-radius: 8px;
+  border: 0.5px solid #c4c4c4;
+  padding: 3px 80px 3px 3px;
+}
+

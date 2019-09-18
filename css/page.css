@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic|Raleway&display=swap');
+
+:root {
+   
+    font-family: 'Livvic', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 1rem;
+    margin: 1rem 0;
+    text-align: right;
+}
+
+body {
+    max-width: 550px;
+    min-width: 360px;
+    margin: auto;
+    background-color: #67432A; 
+}*/
+.zerno {
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width : 550px;
+    display: flex;
+    align-items:stretch;
+}
